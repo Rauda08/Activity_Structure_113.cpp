@@ -21,6 +21,15 @@ int main() {
 
     cout << "Masukan NIM :";
     cin >> mhs.NIM;
+    cout << "Masukan Nama :";
+    cin >> mhs.nama;
+    cout << "Alamat :";
+    cout << "\n\tMasukan Desa :";
+    cin >> mhs.nama.desa;
+    cout << "\tMasukan Kota :";
+    cin >> mhs.alamat.kota;
+    cout << "Masukan Umur : ";
+    cin >> mhs.umur;
     
 }
 
