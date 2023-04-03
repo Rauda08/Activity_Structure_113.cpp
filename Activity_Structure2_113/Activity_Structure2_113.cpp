@@ -13,6 +13,17 @@ struct Mahasiswa
     string nama;
     AlamatDetail alamat;
     int umur;
+};
+
+
+int main() {
+    Mahasiswa mhs;
+
+    cout << "Masukan NIM :";
+    cin >> mhs.NIM;
+    
+}
+
 
 
 int main()
