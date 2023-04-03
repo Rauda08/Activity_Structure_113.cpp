@@ -13,7 +13,7 @@ struct mahasiswa
 int main() {
     mahasiswa mhs1, mhs2;
 
-    mhs1.NIM = "20220140113";
+    mhs1.NIM = "20220140113";   
     mhs1.nama = "Raudatul Jannah";
     mhs1.alamat = "Pangkalan Kerinci";
     mhs1.umur = 20;
