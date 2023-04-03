@@ -17,31 +17,31 @@ struct mahasiswa
 
 
 int main() {
-    Mahasiswa mhs[3]
+    mahasiswa mhs[3];
 
-        for (int i = 0; i < 3; i++) {
-            cout << "Masukan NIM :";
-            cin.getline(mhs[i].NIM, 12);
-            cout << "Masukan Nama :";
-            cin.getline(mhs[i].nama, 25);
-            cout << "Alamat :";
-            cout << "\n\tMasukan Desa :";
-            cin.getline(mhs[i].alamat.desa, 20);
-            cout << "\n\tMasukan Kota, 20)"
-                cin.getline(mhs[i].alamat.kota, 20);
-            cout << "Masukan Umur :";
-            cin >> mhs[i].umur;
-            cin.ignore(1, '\n');
-        }
-
-
-
-}
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+    for (int i = 0; i < 3; i++) {
+        cout << "Masukan NIM :";
+        cin.getline(mhs[i].NIM, 12);
+        cout << "Masukan Nama :";
+        cin.getline(mhs[i].nama, 25);
+        cout << "Alamat :";
+        cout << "\n\t.Masukkan Desa :";
+        cin.getline(mhs[i].alamat.desa, 20);
+        cout << "\n\tMasukan Kota, 20)";
+        cin.getline(mhs[i].alamat.kota, 20);
+        cout << "Masukan Umur :";
+        cin >> mhs[i].umur;
+        cin.ignore(1, '\n');
+    }
+    for (int i = 0; i < 3; i++)
+    {
+        cout << "\n\nNIM = " << mhs[i].NIM;
+        cout << "\nNama =" << mhs[i].nama;
+        cout << "\nDesa = " << mhs[i].alamat.desa;
+        cout << "\nKota = " << mhs[i].alamat.kota;
+        cout << "\nUmur = " << mhs[i].umur;
+    }
+};
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
