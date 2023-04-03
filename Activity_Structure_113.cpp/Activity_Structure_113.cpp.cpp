@@ -10,7 +10,6 @@ struct mahasiswa
     int umur;
 };
 
-
 int main() {
     mahasiswa mhs1, mhs2;
 
@@ -29,7 +28,7 @@ int main() {
     cin >> mhs2.umur;
 
     cout << "\nNIM = " << mhs1.NIM;
-    cout << "\nNama = " mhs1.nama;
+    cout << "\nNama = " << mhs1.nama;
     cout << "\nAlamat = " << mhs1.alamat;
     cout << "\nUmur = " << mhs1.umur;
 
