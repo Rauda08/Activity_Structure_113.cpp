@@ -17,7 +17,7 @@ int main() {
     mhs1.nama = "Raudatul Jannah";
     mhs1.alamat = "Pangkalan Kerinci";
     mhs1.umur = 20;
-
+    
     cout << "Masukan NIM :";
 
 }
